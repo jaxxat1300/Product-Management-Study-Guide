@@ -2,6 +2,14 @@
 
 A modern, gamified web application for learning product management concepts. Built with React, TypeScript, and Tailwind CSS.
 
+[![Deploy to GitHub Pages](https://github.com/user/repo/actions/workflows/deploy.yml/badge.svg)](https://github.com/user/repo/actions/workflows/deploy.yml)
+
+## 🌐 Live Demo
+
+Visit the live app: [https://yourusername.github.io/Product-Management-Study-Guide/](https://yourusername.github.io/Product-Management-Study-Guide/)
+
+> **Note:** Update the base path in `vite.config.ts` to match your GitHub repository name, or set the `VITE_BASE_PATH` environment variable.
+
 ## Features
 
 ### 📚 Learning System
@@ -58,6 +66,19 @@ npm run build
 ```
 
 The built files will be in the `dist` directory.
+
+## Deploying to GitHub Pages
+
+1. **Update the base path** in `vite.config.ts`:
+   - Replace `/Product-Management-Study-Guide/` with your actual repository name
+   - Or set the `VITE_BASE_PATH` environment variable in GitHub Actions
+
+2. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Source: GitHub Actions
+
+3. **Push to main branch**:
+   - The GitHub Actions workflow will automatically build and deploy your app
 
 ## Project Structure
 
